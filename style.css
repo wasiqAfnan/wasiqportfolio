@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(65deg,rgb(141, 141, 237) ,white);
+    box-sizing: border-box;
+}
+.main{
+    height:60vh;
+    color:cadetblue;
+}
+.header{
+    width:99vw;
+    position:fixed;
+    top:-1px;
+    z-index: 1;
+}
+.on-hover:hover {
+    opacity: 0.5;
+}
+.setWidth{
+    width:75vw;
+    margin-left:250px;
+}
