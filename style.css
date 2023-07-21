@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(65deg,rgb(141, 141, 237) ,white);
+    box-sizing: border-box;
+}
+.main{
+    height:60vh;
+    color:cadetblue;
+}
+.header{
+    width:99vw;
+    position:fixed;
+    top:-1px;
+    z-index: 1;
+}
+.on-hover:hover {
+    opacity: 0.5;
+}
+.skillCard{
+    width: 10rem;
+}
+
+@media screen and (max-width: 1366px) {
+    .intro{
+        height:190px;
+        width:520px;
+    }
+    .img{
+        width:500px;
+        height:500px;
+        margin-left: -50px !important;
+    }
+    .aboutSec{
+        margin-top:124px !important;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+    .intro{
+        height:190px;
+        width:520px;
+    }
+    .img{
+        width:500px;
+        height:500px;
+        margin-left: -50px !important;
+    }
+    .aboutSec{
+        margin-top:124px !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .hey{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    .aboutSec{
+        margin-top: 264px !important;    
+    }
+}
