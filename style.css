@@ -61,8 +61,17 @@ body{
 }
 
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1265px) {
     .aboutSec{
-        margin-top: 264px !important;    
+        margin-top: 400px !important;    
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img{
+        display:none !important;
+    }
+    .aboutSec{
+        margin-top: 0px !important;    
     }
 }
