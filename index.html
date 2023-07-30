@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyPortfolioSite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#home">&lt;WasiqPortfolio&#47;&gt;</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse h5" id="navbarSupportedContent">
+            <div class="container d-flex justify-content-center" >
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="main my-5 hey" id="home">
+        <div class="top d-flex flex-wrap">
+            <div class="col my-5">
+                <div class="main-text my-3 mx-3 text-body main2">
+                  <div class="intro px-5">
+                    <p class="h3 ">Hey, I am</p>
+                    <p class="fw-bolder h1"><span class="text-danger">Wasiq</span> Afnan Ansari</p>
+                    <p class="h3 my-3">An Enthusiast <span class= "fw-bolder h2" id="element"></span></p>
+                  </div>
+                  <div class="child2">
+                      <a href="https://www.github.com/wasiqAfnan"><img class="mx-1 on-hover" src="./Icons/github-icon.svg" alt="hey" width="50" height="50"></a>
+                      <a href="https://www.linkedin.com/in/wasiq-afnan-ansari-cs2021"><img class="mx-1 on-hover" src="./Icons/linkedin-square-color-icon.svg" alt="hey" width="50" height="50"></a>
+                      <a href="https://www.fb.com/afnan.ansari"><img class="mx-1 on-hover" src="./Icons/facebook-square-color-icon.svg" alt="hey" width="50" height="50"></a>
+                      <a href="mailto:wansari964@yahoo.com"><img class="mx-1 on-hover" src="./Icons/envelope-line-icon.svg" alt="hey" width="53" height="55"></a>
+                  </div>
+                  <div class="child3 mt-5">
+                      <a href="./WASIQ's Resume.pdf" download><button type="button" class="btn btn-outline-dark btn-lg rounded-pill mx-5">Download My Resume</button></a>
+                  </div>
+                </div>
+                      
+              </div>
+            <div class="img">
+                <img class="img-fluid" src="./Icons/undraw_programming_re_kg9v.svg" alt="myimage">
+            </div>
+        </div>
+    </div>
+
+    <div class="my-5 px-5 aboutSec" id="about">
+      <p class="h1 mt-5 text-center text-danger fw-bolder">About Me</p>
+      <div class="container">
+          <div class="row">
+            <div class="col px-5">
+              <p class="mt-5 h2 fw-bold">BCA</p>
+              <ul>
+                <li class="h5">2021-2023</li>
+                <li class="h5">IGNOU</li>
+                <li class="h5">60%</li>
+              </ul>
+              
+            </div>
+            <div class="col">
+              <p class="mt-5 h2 fw-bold ">Higher Secondary</p>
+              <ul>
+                <li class="h5">2017</li>
+                <li class="h5">WBCHSE</li>
+                <li class="h5">74%</li>
+              </ul>
+            </div>
+            <div class="col">
+              <p class="mt-5 h2 fw-bold ">Secondary</p>
+              <ul>
+                <li class="h5">2015</li>
+                <li class="h5">WBBSE</li>
+                <li class="h5">72%</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <p class="h1 mt-5 text-center text-danger fw-bolder">Skills</p>
+      <p class="mt-5 h2 fw-bold mx-5 my-5 px-5 py-3">Core Programming Languages Known</p>
+      <div class="d-flex justify content justify-content-center flex-wrap hey">
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/c-program-icon.svg" class="card-img-top mt-2 " width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">C language</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/c-plus-plus-programming-language-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">CPP</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard">
+          <img src="./Icons/java-programming-language-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">JAVA</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/javascript-programming-language-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">JAVASCRIPT</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/php-programming-language-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">PHP</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard">
+          <img src="./Icons/python-programming-language-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">PYTHON</p>
+          </div>
+        </div>
+      </div>
+
+        <!-- row2 -->
+
+
+      <p class="mt-5 h2 fw-bold mx-5 my-5 px-5 py-3">Web Technologies Known</p>
+        <div class="d-flex justify content justify-content-center mb-5 flex-wrap hey">
+          <div class="card mx-5 skillCard" >
+            <img src="./Icons/html-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+            <div class="card-body">
+              <p class="card-text text-center">HTML5</p>
+            </div>
+          </div>
+      
+          <div class="card mx-5 skillCard">
+            <img src="./Icons/css-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+            <div class="card-body">
+              <p class="card-text text-center">CSS3</p>
+            </div>
+          </div>
+      
+          <div class="card mx-5 skillCard">
+            <img src="./Icons/bootstrap-5-logo-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+            <div class="card-body">
+              <p class="card-text text-center">BOOTSTRAP5</p>
+            </div>
+          </div>
+      
+          <div class="card mx-5 skillCard">
+            <img src="./Icons/react-js-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+            <div class="card-body">
+              <p class="card-text text-center">REACT JS</p>
+            </div>
+          </div>
+      
+          <div class="card mx-5 skillCard">
+            <img src="./Icons/node-js-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+            <div class="card-body">
+              <p class="card-text text-center">NODE JS</p>
+            </div>
+          </div>
+      
+          <div class="card mx-5 skillCard" >
+            <img src="./Icons/express-js-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+            <div class="card-body">
+              <p class="card-text text-center">EXPRESS JS</p>
+            </div>
+          </div>
+        </div>
+        
+
+          
+        <!-- row3 -->
+
+
+      <p class="mt-5 h2 fw-bold mx-5 my-5 px-5 py-3">Databases & Other Web Dev Tools Known</p>
+      <div class="d-flex justify content justify-content-center mb-5 flex-wrap hey">
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/mysql-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">MYSQL</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/mongodb-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">MONGODB</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/axios_logo_icon_168546.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">AXIOS</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/npm-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">NPM</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/mui_logo_icon_248416.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">MATERIAL UI</p>
+          </div>
+        </div>
+
+        <div class="card mx-5 skillCard" >
+          <img src="./Icons/git-icon.svg" class="card-img-top mt-2" width="100" height="100" alt="">
+          <div class="card-body">
+            <p class="card-text text-center">GIT</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+    
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">Created by Wasiq Afnan Ansari, 2023</p>
+          <p class="col-md-4 mb-0 text-muted">Credits:<br>
+            axios icon from: icon-icons.com <br>created by: vectorlogozone<br>
+            mui icon from: icon-icons.com <br>created by: Simpleicons<br>
+          </p>
+          <div>
+            <a href="https://www.github.com/wasiqAfnan"><img class="mx-1 on-hover" src="./Icons/github-icon.svg" alt="hey" width="35" height="35"></a>
+            <a href="https://www.linkedin.com/in/wasiq-afnan-ansari-cs2021"><img class="mx-1 on-hover" src="./Icons/linkedin-square-color-icon.svg" alt="hey" width="35" height="35"></a>
+            <a href="https://www.fb.com/afnan.ansari"><img class="mx-1 on-hover" src="./Icons/facebook-square-color-icon.svg" alt="hey" width="35" height="35"></a></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Frontend Developer','React Developer','Based in INDIA'],
+          typeSpeed: 70,
+          backDelay: 1500,
+          loop: !0, // here
+          startDelay: 500,
+        });
+      </script>
+  </body>
+</html>
